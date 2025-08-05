@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: demo
+  datasource:
+    name: exercise
+    url: jdbc:mysql://localhost:3306/exercise
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8123
