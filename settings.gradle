@@ -1,0 +1,5 @@
+rootProject.name = 'Early_Exercies'
+
+
+include('demo')
+include('demo2')
